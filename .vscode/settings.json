@@ -4,6 +4,7 @@
       "**/.reuse": true,
       "**/.vscode": true,
       "LICENSES": true
-    }
+    },
+    "SAP HANA Project Explorer.bind.confirm automatic undeployment": false
   }
   
