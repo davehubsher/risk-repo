@@ -133,6 +133,7 @@ annotate service.Risks with @(
 annotate service.Risks with @(
     UI.SelectionFields : [
         prio_code,
+        criticality,
     ]
 );
 annotate service.Risks with {
@@ -244,3 +245,6 @@ annotate service.BusinessPartners with @(
         fn : FullName,
     }
 );
+annotate service.Risks with {
+    criticality @Common.Label : '{i18n>Criticality}'
+};
